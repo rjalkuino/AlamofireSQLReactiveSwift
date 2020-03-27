@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C2182D9242E15C1007F55ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182D8242E15C1007F55ED /* AppDelegate.swift */; };
+		1C2182DB242E15C1007F55ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182DA242E15C1007F55ED /* SceneDelegate.swift */; };
+		1C2182DD242E15C1007F55ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182DC242E15C1007F55ED /* ViewController.swift */; };
+		1C2182E0242E15C1007F55ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182DE242E15C1007F55ED /* Main.storyboard */; };
+		1C2182E2242E15C2007F55ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182E1242E15C2007F55ED /* Assets.xcassets */; };
+		1C2182E5242E15C2007F55ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */; };
+		1C2182F0242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182EF242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift */; };
+		1C2182FB242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182FA242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C2182EC242E15C2007F55ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C2182CD242E15C1007F55ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C2182D4242E15C1007F55ED;
+			remoteInfo = AlamofireSQLReactiveSwift;
+		};
+		1C2182F7242E15C2007F55ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C2182CD242E15C1007F55ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C2182D4242E15C1007F55ED;
+			remoteInfo = AlamofireSQLReactiveSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C2182D5242E15C1007F55ED /* AlamofireSQLReactiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireSQLReactiveSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2182D8242E15C1007F55ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C2182DA242E15C1007F55ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C2182DC242E15C1007F55ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C2182DF242E15C1007F55ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C2182E1242E15C2007F55ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C2182E4242E15C2007F55ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C2182E6242E15C2007F55ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2182EB242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamofireSQLReactiveSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2182EF242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSQLReactiveSwiftTests.swift; sourceTree = "<group>"; };
+		1C2182F1242E15C2007F55ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2182F6242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamofireSQLReactiveSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2182FA242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSQLReactiveSwiftUITests.swift; sourceTree = "<group>"; };
+		1C2182FC242E15C2007F55ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C2182D2242E15C1007F55ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2182E8242E15C2007F55ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2182F3242E15C2007F55ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2182CC242E15C1007F55ED = {
+			isa = PBXGroup;
+			children = (
+				1C2182D7242E15C1007F55ED /* AlamofireSQLReactiveSwift */,
+				1C2182EE242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests */,
+				1C2182F9242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests */,
+				1C2182D6242E15C1007F55ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C2182D6242E15C1007F55ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C2182D5242E15C1007F55ED /* AlamofireSQLReactiveSwift.app */,
+				1C2182EB242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.xctest */,
+				1C2182F6242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C2182D7242E15C1007F55ED /* AlamofireSQLReactiveSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1C2182D8242E15C1007F55ED /* AppDelegate.swift */,
+				1C2182DA242E15C1007F55ED /* SceneDelegate.swift */,
+				1C2182DC242E15C1007F55ED /* ViewController.swift */,
+				1C2182DE242E15C1007F55ED /* Main.storyboard */,
+				1C2182E1242E15C2007F55ED /* Assets.xcassets */,
+				1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */,
+				1C2182E6242E15C2007F55ED /* Info.plist */,
+			);
+			path = AlamofireSQLReactiveSwift;
+			sourceTree = "<group>";
+		};
+		1C2182EE242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C2182EF242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift */,
+				1C2182F1242E15C2007F55ED /* Info.plist */,
+			);
+			path = AlamofireSQLReactiveSwiftTests;
+			sourceTree = "<group>";
+		};
+		1C2182F9242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C2182FA242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift */,
+				1C2182FC242E15C2007F55ED /* Info.plist */,
+			);
+			path = AlamofireSQLReactiveSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C2182D4242E15C1007F55ED /* AlamofireSQLReactiveSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2182FF242E15C2007F55ED /* Build configuration list for PBXNativeTarget "AlamofireSQLReactiveSwift" */;
+			buildPhases = (
+				1C2182D1242E15C1007F55ED /* Sources */,
+				1C2182D2242E15C1007F55ED /* Frameworks */,
+				1C2182D3242E15C1007F55ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamofireSQLReactiveSwift;
+			productName = AlamofireSQLReactiveSwift;
+			productReference = 1C2182D5242E15C1007F55ED /* AlamofireSQLReactiveSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C2182EA242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C218302242E15C2007F55ED /* Build configuration list for PBXNativeTarget "AlamofireSQLReactiveSwiftTests" */;
+			buildPhases = (
+				1C2182E7242E15C2007F55ED /* Sources */,
+				1C2182E8242E15C2007F55ED /* Frameworks */,
+				1C2182E9242E15C2007F55ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C2182ED242E15C2007F55ED /* PBXTargetDependency */,
+			);
+			name = AlamofireSQLReactiveSwiftTests;
+			productName = AlamofireSQLReactiveSwiftTests;
+			productReference = 1C2182EB242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C2182F5242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C218305242E15C2007F55ED /* Build configuration list for PBXNativeTarget "AlamofireSQLReactiveSwiftUITests" */;
+			buildPhases = (
+				1C2182F2242E15C2007F55ED /* Sources */,
+				1C2182F3242E15C2007F55ED /* Frameworks */,
+				1C2182F4242E15C2007F55ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C2182F8242E15C2007F55ED /* PBXTargetDependency */,
+			);
+			name = AlamofireSQLReactiveSwiftUITests;
+			productName = AlamofireSQLReactiveSwiftUITests;
+			productReference = 1C2182F6242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C2182CD242E15C1007F55ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Robert John Alkuino";
+				TargetAttributes = {
+					1C2182D4242E15C1007F55ED = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1C2182EA242E15C2007F55ED = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1C2182D4242E15C1007F55ED;
+					};
+					1C2182F5242E15C2007F55ED = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1C2182D4242E15C1007F55ED;
+					};
+				};
+			};
+			buildConfigurationList = 1C2182D0242E15C1007F55ED /* Build configuration list for PBXProject "AlamofireSQLReactiveSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C2182CC242E15C1007F55ED;
+			productRefGroup = 1C2182D6242E15C1007F55ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C2182D4242E15C1007F55ED /* AlamofireSQLReactiveSwift */,
+				1C2182EA242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests */,
+				1C2182F5242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C2182D3242E15C1007F55ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2182E5242E15C2007F55ED /* LaunchScreen.storyboard in Resources */,
+				1C2182E2242E15C2007F55ED /* Assets.xcassets in Resources */,
+				1C2182E0242E15C1007F55ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2182E9242E15C2007F55ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2182F4242E15C2007F55ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2182D1242E15C1007F55ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2182DD242E15C1007F55ED /* ViewController.swift in Sources */,
+				1C2182D9242E15C1007F55ED /* AppDelegate.swift in Sources */,
+				1C2182DB242E15C1007F55ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2182E7242E15C2007F55ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2182F0242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2182F2242E15C2007F55ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2182FB242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C2182ED242E15C2007F55ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C2182D4242E15C1007F55ED /* AlamofireSQLReactiveSwift */;
+			targetProxy = 1C2182EC242E15C2007F55ED /* PBXContainerItemProxy */;
+		};
+		1C2182F8242E15C2007F55ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C2182D4242E15C1007F55ED /* AlamofireSQLReactiveSwift */;
+			targetProxy = 1C2182F7242E15C2007F55ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C2182DE242E15C1007F55ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2182DF242E15C1007F55ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2182E4242E15C2007F55ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C2182FD242E15C2007F55ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C2182FE242E15C2007F55ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C218300242E15C2007F55ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9LH66DXBS;
+				INFOPLIST_FILE = AlamofireSQLReactiveSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjalkuino.AlamofireSQLReactiveSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C218301242E15C2007F55ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9LH66DXBS;
+				INFOPLIST_FILE = AlamofireSQLReactiveSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjalkuino.AlamofireSQLReactiveSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C218303242E15C2007F55ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9LH66DXBS;
+				INFOPLIST_FILE = AlamofireSQLReactiveSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjalkuino.AlamofireSQLReactiveSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlamofireSQLReactiveSwift.app/AlamofireSQLReactiveSwift";
+			};
+			name = Debug;
+		};
+		1C218304242E15C2007F55ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9LH66DXBS;
+				INFOPLIST_FILE = AlamofireSQLReactiveSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjalkuino.AlamofireSQLReactiveSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlamofireSQLReactiveSwift.app/AlamofireSQLReactiveSwift";
+			};
+			name = Release;
+		};
+		1C218306242E15C2007F55ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9LH66DXBS;
+				INFOPLIST_FILE = AlamofireSQLReactiveSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjalkuino.AlamofireSQLReactiveSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlamofireSQLReactiveSwift;
+			};
+			name = Debug;
+		};
+		1C218307242E15C2007F55ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9LH66DXBS;
+				INFOPLIST_FILE = AlamofireSQLReactiveSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rjalkuino.AlamofireSQLReactiveSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlamofireSQLReactiveSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2182D0242E15C1007F55ED /* Build configuration list for PBXProject "AlamofireSQLReactiveSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2182FD242E15C2007F55ED /* Debug */,
+				1C2182FE242E15C2007F55ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2182FF242E15C2007F55ED /* Build configuration list for PBXNativeTarget "AlamofireSQLReactiveSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C218300242E15C2007F55ED /* Debug */,
+				1C218301242E15C2007F55ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C218302242E15C2007F55ED /* Build configuration list for PBXNativeTarget "AlamofireSQLReactiveSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C218303242E15C2007F55ED /* Debug */,
+				1C218304242E15C2007F55ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C218305242E15C2007F55ED /* Build configuration list for PBXNativeTarget "AlamofireSQLReactiveSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C218306242E15C2007F55ED /* Debug */,
+				1C218307242E15C2007F55ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C2182CD242E15C1007F55ED /* Project object */;
+}
