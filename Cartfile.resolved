@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "5.0.5"
+github "ReactiveCocoa/ReactiveSwift" "6.2.1"
+github "stephencelis/SQLite.swift" "0.12.2"
+github "tristanhimmelman/ObjectMapper" "3.5.2"

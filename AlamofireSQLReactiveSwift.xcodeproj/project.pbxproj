@@ -3,18 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C2182D9242E15C1007F55ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182D8242E15C1007F55ED /* AppDelegate.swift */; };
-		1C2182DB242E15C1007F55ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182DA242E15C1007F55ED /* SceneDelegate.swift */; };
 		1C2182DD242E15C1007F55ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182DC242E15C1007F55ED /* ViewController.swift */; };
-		1C2182E0242E15C1007F55ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182DE242E15C1007F55ED /* Main.storyboard */; };
 		1C2182E2242E15C2007F55ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182E1242E15C2007F55ED /* Assets.xcassets */; };
 		1C2182E5242E15C2007F55ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */; };
 		1C2182F0242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182EF242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift */; };
 		1C2182FB242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182FA242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift */; };
+		1C21830A242E161B007F55ED /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218309242E161B007F55ED /* Model.swift */; };
+		1C21830C242E16CD007F55ED /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21830B242E16CD007F55ED /* Persons.swift */; };
+		1C218310242E1804007F55ED /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21830E242E1804007F55ED /* ObjectMapper.framework */; };
+		1C218311242E1804007F55ED /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21830E242E1804007F55ED /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C218312242E1804007F55ED /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21830F242E1804007F55ED /* ReactiveSwift.framework */; };
+		1C218313242E1804007F55ED /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21830F242E1804007F55ED /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C218318242E18C0007F55ED /* PersonApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218317242E18C0007F55ED /* PersonApiModel.swift */; };
+		1C21831B242E19B2007F55ED /* NSDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21831A242E19B2007F55ED /* NSDateExtensions.swift */; };
+		1C21831E242E1AE4007F55ED /* NSDateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21831D242E1AE4007F55ED /* NSDateTransform.swift */; };
+		1C218320242E1B81007F55ED /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21831F242E1B81007F55ED /* Utils.swift */; };
+		1C218323242E1D41007F55ED /* Result in Frameworks */ = {isa = PBXBuildFile; productRef = 1C218322242E1D41007F55ED /* Result */; };
+		1C218325242E1D90007F55ED /* RACExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218324242E1D90007F55ED /* RACExtensions.swift */; };
+		1C218327242E1E01007F55ED /* UIKitRACExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218326242E1E01007F55ED /* UIKitRACExtensions.swift */; };
+		1C218329242E1EE2007F55ED /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C218328242E1EE2007F55ED /* SQLite.framework */; };
+		1C21832A242E1EE2007F55ED /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C218328242E1EE2007F55ED /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C21832F242E1F5E007F55ED /* PersonTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21832E242E1F5E007F55ED /* PersonTable.swift */; };
+		1C218331242E1FA1007F55ED /* Migration0001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218330242E1FA1007F55ED /* Migration0001.swift */; };
+		1C218334242E2092007F55ED /* ModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218333242E2092007F55ED /* ModelService.swift */; };
+		1C218336242E21DC007F55ED /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218335242E21DC007F55ED /* DatabaseService.swift */; };
+		1C218338242E2345007F55ED /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218337242E2345007F55ED /* SessionService.swift */; };
+		1C21833A242E2957007F55ED /* TableViewResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218339242E2957007F55ED /* TableViewResults.swift */; };
+		1C21833C242E2CD4007F55ED /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21833B242E2CD4007F55ED /* APIService.swift */; };
+		1C21833E242E2E4B007F55ED /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21833D242E2E4B007F55ED /* Alamofire.framework */; };
+		1C21833F242E2E4B007F55ED /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21833D242E2E4B007F55ED /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +56,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1C218314242E1804007F55ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1C218311242E1804007F55ED /* ObjectMapper.framework in Embed Frameworks */,
+				1C218313242E1804007F55ED /* ReactiveSwift.framework in Embed Frameworks */,
+				1C21832A242E1EE2007F55ED /* SQLite.framework in Embed Frameworks */,
+				1C21833F242E2E4B007F55ED /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1C2182D5242E15C1007F55ED /* AlamofireSQLReactiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireSQLReactiveSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2182D8242E15C1007F55ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C2182DA242E15C1007F55ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1C2182DC242E15C1007F55ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1C2182DF242E15C1007F55ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C2182E1242E15C2007F55ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C2182E4242E15C2007F55ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C2182E6242E15C2007F55ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +86,25 @@
 		1C2182F6242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamofireSQLReactiveSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2182FA242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSQLReactiveSwiftUITests.swift; sourceTree = "<group>"; };
 		1C2182FC242E15C2007F55ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C218309242E161B007F55ED /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1C21830B242E16CD007F55ED /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
+		1C21830E242E1804007F55ED /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		1C21830F242E1804007F55ED /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		1C218317242E18C0007F55ED /* PersonApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApiModel.swift; sourceTree = "<group>"; };
+		1C21831A242E19B2007F55ED /* NSDateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDateExtensions.swift; sourceTree = "<group>"; };
+		1C21831D242E1AE4007F55ED /* NSDateTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDateTransform.swift; sourceTree = "<group>"; };
+		1C21831F242E1B81007F55ED /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1C218324242E1D90007F55ED /* RACExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACExtensions.swift; sourceTree = "<group>"; };
+		1C218326242E1E01007F55ED /* UIKitRACExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitRACExtensions.swift; sourceTree = "<group>"; };
+		1C218328242E1EE2007F55ED /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+		1C21832E242E1F5E007F55ED /* PersonTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTable.swift; sourceTree = "<group>"; };
+		1C218330242E1FA1007F55ED /* Migration0001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration0001.swift; sourceTree = "<group>"; };
+		1C218333242E2092007F55ED /* ModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelService.swift; sourceTree = "<group>"; };
+		1C218335242E21DC007F55ED /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		1C218337242E2345007F55ED /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		1C218339242E2957007F55ED /* TableViewResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewResults.swift; sourceTree = "<group>"; };
+		1C21833B242E2CD4007F55ED /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1C21833D242E2E4B007F55ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C218310242E1804007F55ED /* ObjectMapper.framework in Frameworks */,
+				1C218323242E1D41007F55ED /* Result in Frameworks */,
+				1C218329242E1EE2007F55ED /* SQLite.framework in Frameworks */,
+				1C21833E242E2E4B007F55ED /* Alamofire.framework in Frameworks */,
+				1C218312242E1804007F55ED /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +144,7 @@
 				1C2182EE242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests */,
 				1C2182F9242E15C2007F55ED /* AlamofireSQLReactiveSwiftUITests */,
 				1C2182D6242E15C1007F55ED /* Products */,
+				1C21830D242E1804007F55ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +161,14 @@
 		1C2182D7242E15C1007F55ED /* AlamofireSQLReactiveSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1C218332242E2084007F55ED /* Services */,
+				1C21832B242E1F14007F55ED /* Database */,
+				1C21831C242E1ACD007F55ED /* Utils */,
+				1C218319242E199C007F55ED /* Extensions */,
+				1C218316242E189D007F55ED /* APIModels */,
+				1C218308242E1609007F55ED /* Models */,
 				1C2182D8242E15C1007F55ED /* AppDelegate.swift */,
-				1C2182DA242E15C1007F55ED /* SceneDelegate.swift */,
 				1C2182DC242E15C1007F55ED /* ViewController.swift */,
-				1C2182DE242E15C1007F55ED /* Main.storyboard */,
 				1C2182E1242E15C2007F55ED /* Assets.xcassets */,
 				1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */,
 				1C2182E6242E15C2007F55ED /* Info.plist */,
@@ -128,6 +194,90 @@
 			path = AlamofireSQLReactiveSwiftUITests;
 			sourceTree = "<group>";
 		};
+		1C218308242E1609007F55ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C218309242E161B007F55ED /* Model.swift */,
+				1C21830B242E16CD007F55ED /* Persons.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C21830D242E1804007F55ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C21833D242E2E4B007F55ED /* Alamofire.framework */,
+				1C218328242E1EE2007F55ED /* SQLite.framework */,
+				1C21830E242E1804007F55ED /* ObjectMapper.framework */,
+				1C21830F242E1804007F55ED /* ReactiveSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C218316242E189D007F55ED /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				1C218317242E18C0007F55ED /* PersonApiModel.swift */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		1C218319242E199C007F55ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C21831A242E19B2007F55ED /* NSDateExtensions.swift */,
+				1C218324242E1D90007F55ED /* RACExtensions.swift */,
+				1C218326242E1E01007F55ED /* UIKitRACExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1C21831C242E1ACD007F55ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1C21831D242E1AE4007F55ED /* NSDateTransform.swift */,
+				1C21831F242E1B81007F55ED /* Utils.swift */,
+				1C218339242E2957007F55ED /* TableViewResults.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1C21832B242E1F14007F55ED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1C21832D242E1F37007F55ED /* Tables */,
+				1C21832C242E1F1C007F55ED /* Migrations */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		1C21832C242E1F1C007F55ED /* Migrations */ = {
+			isa = PBXGroup;
+			children = (
+				1C218330242E1FA1007F55ED /* Migration0001.swift */,
+			);
+			path = Migrations;
+			sourceTree = "<group>";
+		};
+		1C21832D242E1F37007F55ED /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				1C21832E242E1F5E007F55ED /* PersonTable.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		1C218332242E2084007F55ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1C218333242E2092007F55ED /* ModelService.swift */,
+				1C218335242E21DC007F55ED /* DatabaseService.swift */,
+				1C218337242E2345007F55ED /* SessionService.swift */,
+				1C21833B242E2CD4007F55ED /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,12 +288,17 @@
 				1C2182D1242E15C1007F55ED /* Sources */,
 				1C2182D2242E15C1007F55ED /* Frameworks */,
 				1C2182D3242E15C1007F55ED /* Resources */,
+				1C218314242E1804007F55ED /* Embed Frameworks */,
+				1C218315242E180C007F55ED /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AlamofireSQLReactiveSwift;
+			packageProductDependencies = (
+				1C218322242E1D41007F55ED /* Result */,
+			);
 			productName = AlamofireSQLReactiveSwift;
 			productReference = 1C2182D5242E15C1007F55ED /* AlamofireSQLReactiveSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +371,9 @@
 				Base,
 			);
 			mainGroup = 1C2182CC242E15C1007F55ED;
+			packageReferences = (
+				1C218321242E1D41007F55ED /* XCRemoteSwiftPackageReference "Result" */,
+			);
 			productRefGroup = 1C2182D6242E15C1007F55ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +392,6 @@
 			files = (
 				1C2182E5242E15C2007F55ED /* LaunchScreen.storyboard in Resources */,
 				1C2182E2242E15C2007F55ED /* Assets.xcassets in Resources */,
-				1C2182E0242E15C1007F55ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +411,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C218315242E180C007F55ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C2182D1242E15C1007F55ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C21833C242E2CD4007F55ED /* APIService.swift in Sources */,
+				1C21831E242E1AE4007F55ED /* NSDateTransform.swift in Sources */,
+				1C218331242E1FA1007F55ED /* Migration0001.swift in Sources */,
+				1C21830A242E161B007F55ED /* Model.swift in Sources */,
+				1C218318242E18C0007F55ED /* PersonApiModel.swift in Sources */,
+				1C218334242E2092007F55ED /* ModelService.swift in Sources */,
+				1C218327242E1E01007F55ED /* UIKitRACExtensions.swift in Sources */,
+				1C21833A242E2957007F55ED /* TableViewResults.swift in Sources */,
+				1C218338242E2345007F55ED /* SessionService.swift in Sources */,
+				1C21831B242E19B2007F55ED /* NSDateExtensions.swift in Sources */,
 				1C2182DD242E15C1007F55ED /* ViewController.swift in Sources */,
+				1C218336242E21DC007F55ED /* DatabaseService.swift in Sources */,
+				1C21830C242E16CD007F55ED /* Persons.swift in Sources */,
 				1C2182D9242E15C1007F55ED /* AppDelegate.swift in Sources */,
-				1C2182DB242E15C1007F55ED /* SceneDelegate.swift in Sources */,
+				1C218325242E1D90007F55ED /* RACExtensions.swift in Sources */,
+				1C21832F242E1F5E007F55ED /* PersonTable.swift in Sources */,
+				1C218320242E1B81007F55ED /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +492,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1C2182DE242E15C1007F55ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C2182DF242E15C1007F55ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +623,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9LH66DXBS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AlamofireSQLReactiveSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +645,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9LH66DXBS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AlamofireSQLReactiveSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -590,6 +785,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C218321242E1D41007F55ED /* XCRemoteSwiftPackageReference "Result" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/antitypical/Result.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C218322242E1D41007F55ED /* Result */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C218321242E1D41007F55ED /* XCRemoteSwiftPackageReference "Result" */;
+			productName = Result;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C2182CD242E15C1007F55ED /* Project object */;
 }

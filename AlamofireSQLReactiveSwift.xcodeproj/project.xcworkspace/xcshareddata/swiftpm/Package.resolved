@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Result",
+        "repositoryURL": "https://github.com/antitypical/Result.git",
+        "state": {
+          "branch": "master",
+          "revision": "c30700bfcab7f555bf1d386fdd609407a94f369c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
