@@ -37,6 +37,7 @@
 		1C21833C242E2CD4007F55ED /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21833B242E2CD4007F55ED /* APIService.swift */; };
 		1C21833E242E2E4B007F55ED /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21833D242E2E4B007F55ED /* Alamofire.framework */; };
 		1C21833F242E2E4B007F55ED /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21833D242E2E4B007F55ED /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C218341242E3922007F55ED /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C218340242E3922007F55ED /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		1C218339242E2957007F55ED /* TableViewResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewResults.swift; sourceTree = "<group>"; };
 		1C21833B242E2CD4007F55ED /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		1C21833D242E2E4B007F55ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1C218340242E3922007F55ED /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +276,7 @@
 				1C218335242E21DC007F55ED /* DatabaseService.swift */,
 				1C218337242E2345007F55ED /* SessionService.swift */,
 				1C21833B242E2CD4007F55ED /* APIService.swift */,
+				1C218340242E3922007F55ED /* LocationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				1C2182D9242E15C1007F55ED /* AppDelegate.swift in Sources */,
 				1C218325242E1D90007F55ED /* RACExtensions.swift in Sources */,
 				1C21832F242E1F5E007F55ED /* PersonTable.swift in Sources */,
+				1C218341242E3922007F55ED /* LocationService.swift in Sources */,
 				1C218320242E1B81007F55ED /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
