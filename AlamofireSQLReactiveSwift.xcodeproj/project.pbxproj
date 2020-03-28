@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C2182D9242E15C1007F55ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182D8242E15C1007F55ED /* AppDelegate.swift */; };
-		1C2182DD242E15C1007F55ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182DC242E15C1007F55ED /* ViewController.swift */; };
 		1C2182E2242E15C2007F55ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182E1242E15C2007F55ED /* Assets.xcassets */; };
 		1C2182E5242E15C2007F55ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */; };
 		1C2182F0242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2182EF242E15C2007F55ED /* AlamofireSQLReactiveSwiftTests.swift */; };
@@ -77,7 +76,6 @@
 /* Begin PBXFileReference section */
 		1C2182D5242E15C1007F55ED /* AlamofireSQLReactiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireSQLReactiveSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2182D8242E15C1007F55ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C2182DC242E15C1007F55ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C2182E1242E15C2007F55ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C2182E4242E15C2007F55ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C2182E6242E15C2007F55ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 				1C218316242E189D007F55ED /* APIModels */,
 				1C218308242E1609007F55ED /* Models */,
 				1C2182D8242E15C1007F55ED /* AppDelegate.swift */,
-				1C2182DC242E15C1007F55ED /* ViewController.swift */,
 				1C2182E1242E15C2007F55ED /* Assets.xcassets */,
 				1C2182E3242E15C2007F55ED /* LaunchScreen.storyboard */,
 				1C2182E6242E15C2007F55ED /* Info.plist */,
@@ -453,7 +450,6 @@
 				1C21833A242E2957007F55ED /* TableViewResults.swift in Sources */,
 				1C218338242E2345007F55ED /* SessionService.swift in Sources */,
 				1C21831B242E19B2007F55ED /* NSDateExtensions.swift in Sources */,
-				1C2182DD242E15C1007F55ED /* ViewController.swift in Sources */,
 				1C218336242E21DC007F55ED /* DatabaseService.swift in Sources */,
 				1C21830C242E16CD007F55ED /* Persons.swift in Sources */,
 				1C2182D9242E15C1007F55ED /* AppDelegate.swift in Sources */,
